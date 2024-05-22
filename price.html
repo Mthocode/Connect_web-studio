@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/navigation.css" rel="stylesheet" type="text/css"/>
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/price.css" rel="stylesheet" type="text/css">
+    <!--<link href="css\mobile.css" rel="stylesheet" type="text/css">-->
+    <link href="css/price_mobile.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="navigationbur">
+        <div id="logoimg"><img src="res/Connrct web2.png"></div>
+        <div id="logo">Connect web-studio</div>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="#">Price</a></li>
+                <li><a href="cntect.html">Contect</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="pricecon">
+        <div id="heroimage">
+            <h1>Whet you will get for the wright price</h1>
+            <p>
+                select the wright product pacange for your needs.
+            </p>
+        </div>
+        <div id="pricecurd">
+            <div class="pacage-curd">
+                <div class="pacage-img"><img src="../res/_c838ef89-4a93-4c5b-a962-1915667ef766.jpg"/></div>
+                <ul>
+                    <li>1 web pages</li>
+                    <li>responsive design</li>
+                    <li>form page</li>
+                    <li>basic SEO services</li>
+                    <li>social media integration</li>
+                    <li>help with domain registration<br> (if required)</li>
+                    <li>help with uploading website to<br> your server (if required)</li>
+                    <li>2 revisions</li>
+                </ul>
+                <hr/>
+                <p>R400</p>
+                <button onclick="formcanvis()">Book a call</button>
+            </div>
+            <div class="pacage-curd">
+                <div class="pacage-img"><img src="../res/_e60cb6bf-2148-4019-8a62-c0018c42502a.jpg"/></div>
+                <ul>
+                    <li>3 web pages</li>
+                    <li>responsive design</li>
+                    <li>form page</li>
+                    <li>custom fuctionality</li>
+                    <li>basic SCO services</li>
+                    <li>Social media integration</li>
+                    <li>help with domain registration<br> (if required)</li>
+                    <li>help with uploading website<br> to your server (if required)</li>
+                    <li>3 revisions</li>
+                </ul>
+                <hr/>
+                <div id ="ajust1">
+                    <p>R1200</p>
+                    <button onclick="formcanvis()">Book a call</button>
+                </div>
+                
+            </div>
+            <div class="pacage-curd">
+                <div class="pacage-img"><img src="../res/_1df8ee26-ec06-48ce-b233-0167114ad035.jpg"/></div>
+                <ul>
+                    <li>5 to 10 web pages</li>
+                    <li>responsive design</li>
+                    <li>form page</li>
+                    <li>custom fuctionality</li>
+                    <li>basic SCO services</li>
+                    <li>Social media integration</li>
+                    <li>help with domain registration<br> (if required)</li>
+                    <li>help with uploading website<br> to your server (if required)</li>
+                    <li>1 MSQL data base</li>
+                    <li>3 revisions</li>
+                </ul>
+                <hr/>
+                <div id ="ajust2">
+                    <p>R2000</p>
+                    <button onclick="formcanvis()">Book a call</button>
+                </div>
+                
+            </div>
+        </div>
+        <div id="cover_frame"></div>
+        <button id="close">x</button>
+        <div id="businfo">
+            <p>Please provide us with some information about your self and the business</p>
+            <form method ="post" action=" " id="form" onsubmit="return inputchac(usersname,nameErr,reason,reasonErr,email,emailErr,comment,commentErr)">
+                <input type="text"  name="user" id="username" placeholder=" Your Name"></input>
+                <span id="usernameErr"></span>
+                <input type="text"  name="user" id="businessnam" placeholder=" Name of your business"></input>
+                <span id="businessErr"></span>
+                <p>How many page would you like</p>
+                <select id="select">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10 +">10 +</option>
+                </select>
+                <span id="numpErr"></span>
+                <p>Please use your businesse's address</p>
+                <input type="text"  name ="street" id="street" placeholder="street"></input>
+                <span id="streetErr"></span>
+                <input type="text"  name ="surbab" id="surburb" placeholder="Surburb"></input>
+                <span id="surburbErr"></span>
+                <input type="text"  name ="city/town" id="city" placeholder="City/Town"></input>
+                <span id="cityErr"></span>
+                <p>Please select a province</p>
+                <select id="select1">
+                    <option value="Mpumalanga">Mpumalanga</option>
+                    <option value="Limpopo">Limpopo</option>
+                    <option value="Eastern Cape">Eastern Cape</option>
+                    <option value="Free State">Free State</option>
+                    <option value="Western Cape">Western Cape</option>
+                    <option value="Northern Cape">Northern Cape</option>
+                    <option value="Gauteng">Gauteng</option>
+                    <option value="Northern Cape">Northern Cape</option>
+                    <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                </select>
+                <span id="provinceErr"></span>
+                <input type="text"  name ="Postal code" id="postalc" placeholder="Postal code"></input>
+                <span id="postalcodeErr"></span>
+                <input type="email" name="email" id="email" placeholder="E-mail"></input>
+                <span id="emailErr"></span>
+                <p>Any exstra information about your business pleas writ it here</p>
+                <textarea placeholder="type your massege right here" id="massagebox"></textarea>
+                <span id="massageErr"></span>
+                <p>Todays Date</p>
+                <input type="date" name="data" id="date"></input>
+                <span id="dateErr"></span>
+                <input type="submit" name="submit" id="submitBtn"></input>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="footerloga">
+            <p>connect web-studios</p>
+            <img src="res/Connrct web2.png">
+        </div>
+        <div id="footertag">
+            connect web-studios 2024
+        </div>
+        <div id="social">
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+    </footer>
+</body>
+    <script src="js/scroll.js" type="text/javascript"></script>
+    <script src="js/price_form.js" type="text/javascript"></script>
+    <script src="js/velidation_of_price.js" type ="text/javascript"></script>
+</html>

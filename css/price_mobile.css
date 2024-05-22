@@ -1,0 +1,49 @@
+@media (max-width: 854px)
+{
+    #pricecurd 
+    {
+        /*position: relative;
+        left: 7%;*/
+        width: 90%;
+        height: 90%;
+        top: 20px;
+        /*align-self: center;
+        display: flex;*/
+        flex-direction: row;
+        overflow: scroll;
+        justify-content: space-around;
+        /*flex-wrap: wrap;*/
+    }
+    #heroimage > h1 
+    {
+        /*position: absolute;*/
+        top: 19%;
+        left: 5%;
+    }
+    .pacage-curd 
+    {
+        width: 90%;
+        height: 95%;
+        margin: 10px;
+        /*justify-content: space-around;*/
+        /*align-self: center;
+        flex-wrap: wrap;
+        color: rgb(247, 247, 247);
+        background-color: darkslategrey;
+        border: 1px solid white;
+        border-radius: 5px;*/
+    }
+    footer
+    {
+        top: 170%;
+    }
+    footer > #footerloga > img 
+    {
+       /* position: relative;*/
+        top: 7%;
+        width: 95%;
+        height: 95%;
+        /*padding: 0%;
+        margin: 0%;*/
+    }
+}

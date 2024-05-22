@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/navigation.css" rel="stylesheet" type="text/css"/>
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/contect.css" rel="stylesheet" type="text/css">
+    <link href="css/contect_mobile.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="navigationbur">
+        <div id="logo">Connect web-studio</div>
+        <div id="logoimg"><img src="res/Connrct web2.png"></div>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li class="current"><a href="#">Contect</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="contectcon">
+        <div id="promovid">
+            <div id="video-con">
+                <video poster="./res/vidposter.png" autoplay loop class="video">
+                   <source src="./res/custom webste.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+        </div>
+        <div id="submetform">
+            <div id="heading">Contact us</div>
+            <p>Let us know how we can helpe you</p>
+            <form method="post" action="emailrispons.php" id="form" onsubmit="return inputchac(username,nameErr,reason,reasonErr,email,emailErr,massagebox,commentErr)" autocomplete="on">
+                <input type="text"  name="user" placeholder="  Name" id="username"></input>
+                <div id="nameErr"></div>
+                <input type="text"  name ="reason" placeholder="  Reason for your massage" id="reason"></input>
+                <div id="reasonErr"></div>
+                <input type="email" name="email" placeholder="  E-mail" id="email"></input>
+                <div id="emailErr"></div>
+                <textarea placeholder="  type your massege right here" name="massagebox" id="massagebox"></textarea>
+                <div id="massageboxErr"></div>
+                <input type="submit" name="submit" id="submitBtn" ></input>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="footerloga">
+            <p>connect web-studios</p>
+            <img src="res/Connrct web2.png">
+        </div>
+        <div id="footertag">
+            connect web-studios 2024
+        </div>
+        <div id="social">
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+    </footer>
+</body>
+    <script src="js/scroll.js" type="text/javascript"></script>
+    <script src="js/email_velidation.js" type="text/javascript"></script>
+</html>
