@@ -124,6 +124,7 @@ html,body
     #navigationbur > nav 
     {
         display: flex;
+        display: none;
         flex-flow: column;
         flex-wrap: wrap;
         top: 100%;
