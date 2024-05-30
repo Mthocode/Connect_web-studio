@@ -65,6 +65,18 @@ html,body
    text-decoration-color: aqua;
    color: aqua; 
 }
+.fa-facebook
+{
+    font-size: 50px;
+}
+.fa-bars, .fa-xmark
+{
+    position: absolute;
+    display: none;
+    font-size: 215%;
+    left: 80%;
+    color: #616859;
+}
 #logo
 {
     position: absolute;
