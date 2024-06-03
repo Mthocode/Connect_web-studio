@@ -53,7 +53,7 @@
         /*display: grid;
         padding: 2%;*/
         grid-template-columns: 1fr 2fr 7fr;
-        /*grid-template-rows: 4px 2fr;
+        grid-template-rows: 1fr 2fr;
         /*grid-gap: 2%;
         background-color: darkslategrey;*/
     }
@@ -93,7 +93,7 @@
     #leftbtn 
     {
         /*position: relative;*/
-        top: 40%;
+        top: 70%;
        /* left: 3%;*/
         width: 48%;
         height: 9%;
@@ -107,7 +107,7 @@
     #rightbtn 
     {
        /*position: relative;*/
-        top: 35%;
+        top: 61%;
         left: 55%;
         width: 40%;
         height: 9%;
@@ -131,6 +131,21 @@
         height: 95%;
         /*padding: 0%;
         margin: 0%;*/
+    }
+    footer > #footertag
+    {
+        padding-top: 20%;
+        padding-bottom: 0%;
+        font-size: 100%;
+    }
+    footer > #social
+    {
+        padding-top: 30%;
+        padding-bottom: 0%;
+    }
+    .fa-facebook
+    {
+        font-size: 50px;
     }
     
 }

@@ -65,6 +65,19 @@ html,body
    text-decoration-color: aqua;
    color: aqua; 
 }
+.fa-facebook
+{
+    font-size: 50px;
+}
+.fa-bars, .fa-xmark
+{
+    position: absolute;
+    display: none;
+    font-size: 215%;
+    left: 75%;
+    top: 20%;
+    color: #616859;
+}
 #logo
 {
     position: absolute;
@@ -104,27 +117,34 @@ html,body
     #logoimg > img
     {
         width: 40%;
-        height: 98%;
+        height: 130%;
         border-radius: 50px;
-        top: 5px;
-        left: 34%;
+        top: 0.5px;
+        left: 30%;
+    }
+    .fa-bars
+    {
+        display: block;
     }
     #navigationbur > nav 
     {
         display: flex;
+        display: none;
         flex-flow: column;
         flex-wrap: wrap;
         top: 100%;
-        left: 50%;
-        width: 50%;
-        height: 0%;
+        left: 0%;
+        width: 0%;
+        height: 900%;
         background-color: rgba(41, 41, 39, 0.856);
         box-shadow: 0px 4px 10px rgb(7, 7, 7);
+        transition: all 6s ease-in-out;
     }
     #navigationbur >  nav > ul 
     {
         display: flex;
         flex-flow: column;
+        opacity: 0;
         /*background-color: blueviolet;*/
     }
     #navigationbur >  nav > ul > li 
