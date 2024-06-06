@@ -98,13 +98,13 @@
         <button id="close">x</button>
         <div id="businfo">
             <p>Please provide us with some information about your self and the business</p>
-            <form method ="post" action=" " id="form" onsubmit="return inputchac(usersname,nameErr,reason,reasonErr,email,emailErr,comment,commentErr)">
+            <form method ="post" action="https://www.gameheart.co.za/externa/form_test.php" id="form" onsubmit="return inputchac(usersname,nameErr,reason,reasonErr,email,emailErr,comment,commentErr)">
                 <input type="text"  name="user" id="username" placeholder=" Your Name"></input>
                 <span id="usernameErr"></span>
-                <input type="text"  name="user" id="businessnam" placeholder=" Name of your business"></input>
+                <input type="text"  name="businessname" id="businessnam" placeholder=" Name of your business"></input>
                 <span id="businessErr"></span>
                 <p>How many page would you like</p>
-                <select id="select">
+                <select name="pages" id="select">
                     <option value="1">1</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -124,7 +124,7 @@
                 <input type="text"  name ="city/town" id="city" placeholder="City/Town"></input>
                 <span id="cityErr"></span>
                 <p>Please select a province</p>
-                <select id="select1">
+                <select name="province" id="select1">
                     <option value="Mpumalanga">Mpumalanga</option>
                     <option value="Limpopo">Limpopo</option>
                     <option value="Eastern Cape">Eastern Cape</option>
@@ -141,10 +141,11 @@
                 <input type="email" name="email" id="email" placeholder="E-mail"></input>
                 <span id="emailErr"></span>
                 <p>Any exstra information about your business pleas writ it here</p>
-                <textarea placeholder="type your massege right here" id="massagebox"></textarea>
+                <textarea name="massagebox" placeholder="type your massege right here" id="massagebox"></textarea>
                 <span id="massageErr"></span>
                 <p>Todays Date</p>
                 <input type="date" name="data" id="date"></input>
+                <input type="hidden" name="subject" value="Price curd">
                 <span id="dateErr"></span>
                 <input type="submit" name="submit" id="submitBtn"></input>
             </form>
