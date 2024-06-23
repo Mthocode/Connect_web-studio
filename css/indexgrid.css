@@ -78,6 +78,14 @@ html,body
     width: 36%;
     left: 6%;
 }
+#heroimage > a
+{
+    position: relative;
+    top: 99%;
+    width: 36%;
+    left: 6%;
+    color: white;
+}
 #about-sec > h2
 {
     position: relative;
