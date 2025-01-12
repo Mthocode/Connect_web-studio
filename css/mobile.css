@@ -2,60 +2,38 @@
 {
     #grid-con 
     {
-       /* display: grid;
-        position: absolute;
-        top: 0%;
-        width: 100%;*/
-        grid-template-rows: 2fr 2fr 2fr;
-       /* background-image: linear-gradient(50deg, rgb(7, 71, 68), rgb(0, 217, 255));
-        color: rgb(173, 173, 173);
-        text-shadow: 1px 0px 2px black;
-        /* background-color: red; */
+        grid-template-rows: 6fr 2fr 2fr;
     }
     #heroimage 
     {
-       /* background-color: rgb(88, 88, 88);
-        color: white;
-        padding-bottom: 10%;
-        margin-bottom: 3%;*/
         background-image: url("../res/pexels-ken-tomita-389818.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-        /*height: 100%;
-        width: 90%;
-       /* flex-grow: 2;*/
+        background-position: top;
+        background-size: contain;
     }
     #heroimage > h1 
     {
-        /*position: relative;*/
         top: 40%;
         width: 76%;
         left: 14%;
+        font-size: 15px;
     }
     #heroimage > p 
     {
-        /*position: relative;*/
         top: 44%;
-        width: 53%;
-        left: 14%;
+        width: 70%;
+        left: 10%;
+        font-size: small;
     }
     #about-sec > p 
     {
-        /*position: relative;
-        left: 2%;*/
         width: 90%;
-       /* margin-top: 2%;*/
     }
     #process 
     {
-        /*display: grid;
-        padding: 2%;*/
-        grid-template-columns: 1fr 2fr 7fr;
-        grid-template-rows: 1fr 2fr;
-        /*grid-gap: 2%;
-        background-color: darkslategrey;*/
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3 , 0.1fr);
     }
     #process > .procees-info
     {
@@ -63,59 +41,34 @@
         height: 25%;
     }
     #prijects > #project-con {
-        /*position: absolute;
-        width: 83%;*/
-        height: 15%;
+        
+        height: 9%;
         flex-direction: column;
-       /* left: 9%;
-        overflow: hidden;
-        padding: 0%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-        overflow-x: hidden;
-        overscroll-behavior-inline: contain;
-        justify-content: space-evenly;
-        /* background-color: purple; */
+       
     }
     #prijects > #project-con > .project-eg
     {
-        /*display: grid;*/
         width: 90%;
-        /*height: 100%;
-        margin: 20px;
-        flex-basis: 270px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        place-items: center;
-        /*background-color: olive;*/
+        padding: 0%;
+        margin: 0%;
     }
     #leftbtn 
     {
-        /*position: relative;*/
-        top: 70%;
-       /* left: 3%;*/
-        width: 48%;
-        height: 9%;
-       background-color: rgb(0, 0, 0);
-       /* border: 1px solid rgb(82, 79, 79);*/
+        top: 65%;
+        width: 40%;
+        height: 13%;
+        background-color: rgb(0, 0, 0);
         border-radius: 4px;
-        /*text-align: center;
-        color: white;*/
         font-size: 20px;
     }
     #rightbtn 
     {
-       /*position: relative;*/
-        top: 61%;
+        top: 52%;
         left: 55%;
         width: 40%;
-        height: 9%;
+        height: 13%;
         background-color: rgb(0, 0, 0);
-        /*border: 1px solid rgb(82, 79, 79);*/
         border-radius: 4px;
-        /*text-align: center;
-        color: white;*/
         font-size: 20px;
     }
     footer 
@@ -124,13 +77,10 @@
     }
     footer > #footerloga > img 
     {
-       /* position: relative;*/
        display: none;
         top: 7%;
         width: 95%;
         height: 95%;
-        /*padding: 0%;
-        margin: 0%;*/
     }
     footer > #footertag
     {
