@@ -109,18 +109,19 @@ html,body
     {
         text-align: center;
         padding-top: 3%;
-        height: 85%;
-        width: 40%;
-        font-size: 130%;
-        /*background-color: blue;*/
+        height: 60%;
+        width: 34%;
+        font-size: 110%;
+        /*background-color: rgb(0, 255, 76);*/
     }
     #logoimg > img
     {
-        width: 40%;
-        height: 130%;
-        border-radius: 50px;
+        width: 25%;
+        height: 106%;
+        border-radius: 5px;
         top: 0.5px;
-        left: 30%;
+        left: 27%;
+        /*background-color: rgba(0, 0, 255, 0.363);*/
     }
     .fa-bars
     {
@@ -153,15 +154,7 @@ html,body
         height: 5%;
         padding: 5px;
         text-align: center;
-        /*background-color: rgb(22, 22, 22);*/
-        /*display: inline;
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;*/
         font-size: 18px;
-       /* padding: 3%;
-        text-shadow: 2px 2px 2px black;
-        /*  
-        transition: all 0.5s ease-in-out;*/
     }
     #navigationbur >  nav > ul > .current
     {
@@ -173,14 +166,6 @@ html,body
         box-shadow: 0px 2px 4px rgb(158, 158, 158);
         border-top-left-radius: 100px;
         border-bottom-left-radius: 100px;
-        /*display: inline;
-        list-style-type: none;
-        font-family: Arial, Helvetica, sans-serif;*/
-        /*font-size: 18px;*/
-       /* padding: 3%;
-        text-shadow: 2px 2px 2px black;
-        /*  
-        transition: all 0.5s ease-in-out;*/
     }
     
 }

@@ -307,3 +307,45 @@ footer
     top: 280%;
     margin: 0%;
 }
+@media (max-width: 854px) 
+{
+    #heroimage
+    {
+        background-color: rgb(88, 88, 88);
+        color: white;
+        padding-bottom: 10%;
+        margin-bottom: 3%;
+        background-image: url("../res/pexels-ken-tomita-389818.jpg"); 
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-position: top;
+        background-size: 20%;
+        flex-grow: 1;
+    } 
+    #heroimage > a
+    {
+        position: relative;
+        top: 60%;
+        width: 36%;
+        left: 6%;
+        color: rgb(255, 255, 255);
+        font-size: small;
+    }
+    #process > .procees-info > p
+    {
+        padding: 15%;
+        border: 1px solid gainsboro;
+        font-size: medium;
+        background-color: rgb(73, 73, 73);
+    }
+    #process > h2
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        align-self: center;
+        padding-left: 3%;
+        text-decoration: underline;
+        font-size: medium;
+        /* background-color: aquamarine; */
+    }
+}
