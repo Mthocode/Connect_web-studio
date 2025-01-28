@@ -76,7 +76,8 @@ input
 {
     position: absolute;
     width: 30%;
-    height: 4%;
+    height: 1%;
+    padding: 20px;
     box-shadow: 2px 3px 10px rgb(39, 38, 38);
 }
 textarea
@@ -84,6 +85,7 @@ textarea
     position: absolute;
     width: 60%; 
     height: 25%;
+    padding: 20px;
     box-shadow: 2px 3px 10px rgb(39, 38, 38);
 }
 #username

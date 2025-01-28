@@ -2,95 +2,41 @@
 {
     #contectcon 
     {
-        /*position: absolute;
-        top: 0%;
-        width: 100%;*/
-        height: 135%;
-        /*display: grid;
-        grid-template-rows: 2.8fr 4fr;
-        background-color: rgb(22, 50, 102);
-        background-image: linear-gradient(50deg, rgb(7, 71, 68), rgb(0, 217, 255));
-        color: rgb(173, 173, 173);
-        text-shadow: 1px 0px 2px black;*/
+        height: 135%; 
     }
     #submetform > #heading
     {
-        /*position: absolute;
-        padding: 0%;
-        margin: 0%;*/
         left: 32%;
-        /*top: 42%;
-        color: white;
-        font-size: 40px;*/
     }
     #submetform > p 
     {
-        /*position: absolute;
-        padding: 0%;
-        margin: 0%;*/
         left: 19%;
         top: 47%;
-        /*color: white;
-        font-size: 19px;*/
     }
     #username 
     {
         width: 43%;
         left: 5%;
-        /*top: 51%;
-        border-left: 0px;
-        border-right: 0px;
-        border-top: 0px;
-        border-radius: 10px;
-        background-color: rgb(33, 65, 75);
-        color: white;*/
     }
     #reason 
     {
         width: 43%;
         right: 5%;
-        /*top: 51%;
-        border-left: 0px;
-        border-right: 0px;
-        border-top: 0px;
-        border-radius: 10px;
-        background-color: rgb(33, 66, 75);
-        color: white;*/
     }
     #email 
     {
         width: 50%;
         left: 25%;
-        /*top: 59%;
-        border-left: 0px;
-        border-right: 0px;
-        border-top: 0px;
-        border-radius: 10px;
-        background-color: rgb(33, 66, 75);
-        color: white;*/
     }
     #massagebox 
     {
         width: 80%;
         right: 10%;
-        /*top: 66%;
-        border-left: 0px;
-        border-right: 0px;
-        border-top: 0px;
-        border-radius: 10px;
-        background-color: rgb(33, 66, 75);
-        color: white;*/
     }
     #submitBtn {
-        /*left: 12%;*/
         top: 93%;
         width: 28%;
         height: 5%;
-        /*border-radius: 10px;
-        background-image: linear-gradient(50deg, rgb(7, 71, 68), rgb(0, 217, 255));
-        background-size: 200%;
-        background-position: right;
-        transition: background-position 2s ease-in;*/
     }
     footer 
     {
@@ -98,11 +44,8 @@
     }
     footer > #footerloga > img 
     {
-       /* position: relative;*/
         top: 7%;
         width: 95%;
         height: 95%;
-        /*padding: 0%;
-        margin: 0%;*/
     }
 }
