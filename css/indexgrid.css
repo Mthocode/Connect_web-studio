@@ -69,7 +69,8 @@ html,body
     top: 60%;
     width: 36%;
     left: 6%;
-
+    animation-name: slide;
+    animation-duration: 20s;
 }
 #heroimage > p
 {
@@ -77,6 +78,8 @@ html,body
     top: 65%;
     width: 36%;
     left: 6%;
+    animation-name: slideup;
+    animation-duration: 20s;
 }
 #heroimage > a
 {
@@ -85,6 +88,8 @@ html,body
     width: 36%;
     left: 6%;
     color: white;
+    animation-name: faidein;
+    animation-duration: 20s;
 }
 #about-sec > h2
 {
@@ -348,4 +353,22 @@ footer
         font-size: medium;
         /* background-color: aquamarine; */
     }
+}
+@keyframes slide
+{
+    0%{opacity: 0 ; left: 60%;}
+    50%{opacity: 0.5; left: 30%;}
+    100%{opacity: 1 ; left: 6%;}
+}
+@keyframes slideup
+{
+    0%{opacity: 0 ; top: 85%;}
+    50%{opacity: 0.5; top: 75%;}
+    100%{opacity: 1 ; top: 65%;}
+}
+@keyframes faidein
+{
+    0%{opacity: 0 ;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1 ;}
 }

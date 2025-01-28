@@ -37,12 +37,16 @@ html,body
     position: absolute;
     top: 22%;
     left: 8%;
+    animation-name: slide;
+    animation-duration: 20s;
 }
 #heroimage > p
 {
     position: absolute;
     top: 27%;
     left: 8%;
+    animation-name: slideup;
+    animation-duration: 20s;
 }
 #heroimage > a
 {
@@ -50,6 +54,8 @@ html,body
     top: 40%;
     left: 8%;
     color: white;
+    animation-name: faidein;
+    animation-duration: 20s;
 }
 #pricecurd
 {
@@ -303,4 +309,22 @@ button:active
 footer
 {
     top: 170%;
+}
+@keyframes slide
+{
+    0%{opacity: 0 ; left: 60%;}
+    50%{opacity: 0.5; left: 30%;}
+    100%{opacity: 1 ; left: 6%;}
+}
+@keyframes slideup
+{
+    0%{opacity: 0 ; top: 35%;}
+    50%{opacity: 0.5; top: 30%;}
+    100%{opacity: 1 ; top: 27%;}
+}
+@keyframes faidein
+{
+    0%{opacity: 0 ;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1 ;}
 }
