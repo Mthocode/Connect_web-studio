@@ -1,26 +1,31 @@
 @media (max-width: 854px)
 {
+    input
+    {
+        padding: 4%;
+    }
     #contectcon 
     {
         height: 135%; 
     }
     #submetform > #heading
     {
-        left: 32%;
+        left: 20%;
     }
     #submetform > p 
     {
-        left: 19%;
+        left: 14%;
+        font-size: 15px;
         top: 47%;
     }
     #username 
     {
-        width: 43%;
+        width: 35%;
         left: 5%;
     }
     #reason 
     {
-        width: 43%;
+        width: 35%;
         right: 5%;
     }
     #email 
@@ -30,22 +35,32 @@
     }
     #massagebox 
     {
-        width: 80%;
-        right: 10%;
+        width: 82%;
+        right: 8%;
     }
     #submitBtn {
-        top: 93%;
+        top: 94%;
         width: 28%;
         height: 5%;
     }
     footer 
     {
         top: 135%;
+        grid-template-columns: 1fr 0.2fr 1fr;
+    }
+    footer > #footerloga
+    {
+        /*height: 80%;*/
+        display: grid;
+        grid-template-columns: 0.2fr 3fr;
+        padding: 0%;
+        margin: 0%;
     }
     footer > #footerloga > img 
     {
         top: 7%;
-        width: 95%;
-        height: 95%;
+        margin-left: 0%;
+        width: 90%;
+        height: 85%;
     }
 }

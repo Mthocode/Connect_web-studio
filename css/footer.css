@@ -8,7 +8,7 @@ footer
     text-align: center;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 0.5fr 1fr;
     padding: 0%;
     margin: 0%;
     overflow-y: 0%;
@@ -17,21 +17,23 @@ footer > #footerloga
 {
     /*height: 80%;*/
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.4fr;
     padding: 0%;
     margin: 0%;
 }
 footer > #footerloga > p
 {
     font-size: 150%;
+    /*height: 100%;*/
     align-items: center;
     padding-top: 10%;
     padding-bottom: 0%;
 }
 footer > #footerloga > img
 {
+    margin-left: -50%;
     width: 95%;
-    height: 70%;
+    height: 80%;
 }
 footer > #footertag
 {
